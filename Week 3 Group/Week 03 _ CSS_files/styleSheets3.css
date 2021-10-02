@@ -20,7 +20,7 @@ div#bottom{
 }
 
 div#bottom::after{
-    content: " Thomas Nielson";
+    content: " 10/02/21 11:59MST. Designed by Thomas Nielson";
 }
 
 div.document:last-child{
