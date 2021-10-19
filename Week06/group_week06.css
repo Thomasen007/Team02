@@ -1,0 +1,43 @@
+#flex_first,#flex_second{
+    display: flex;
+    justify-content: center;
+}
+
+#flex_first{
+    margin-left: 10%;
+}
+#flex_first ul{
+    line-height: 35px;
+}
+
+#flex_second{
+    display: block;
+}
+
+#flex_second input, textarea, select{
+    width: 100%;
+}
+
+#flex_second input[type="radio"]{
+    width: unset;
+}
+
+#flex_second input[type="checkbox"]{
+    width: unset;
+}
+
+#flex_second button{
+    width: 98%;    
+}
+
+
+@media screen and (min-width:1200){
+}
+
+@media screen and (max-width:599){
+    
+}
+
+@media screen and (max-width:1199) and (min-width:600){
+
+}
