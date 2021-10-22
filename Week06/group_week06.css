@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #flex_first,#flex_second{
     display: flex;
     justify-content: center;
@@ -40,4 +41,25 @@
 
 }
 @media screen and (min-width:1200){
+=======
+#grid_first{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+}
+
+
+
+
+@media screen and (max-width:1199px) and (min-width:600px){
+    #grid_first{
+        grid-template-columns: auto auto;
+    } 
+}
+
+@media screen and (max-width:599px){
+    #grid_first{
+        grid-template-columns: auto;
+    } 
+>>>>>>> 982b3f507353272db0bfc92bd045b922b635708e
 }
