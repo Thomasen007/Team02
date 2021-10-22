@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #flex_first,#flex_second{
     display: flex;
     justify-content: center;
@@ -31,23 +30,30 @@
     width: 98%;    
 }
 
-
-
-@media screen and (max-width:599){
-    
-}
-
-@media screen and (max-width:1199) and (min-width:600){
-
-}
-@media screen and (min-width:1200){
-=======
 #grid_first{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 1rem;
 }
 
+#grid_second{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+
+}
+
+.box9{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.box1{
+    display: grid;
+    grid-row: 1/3;
+    grid-column: 1/4;
+    grid-template-rows: 5rem;
+}
 
 
 
@@ -55,11 +61,26 @@
     #grid_first{
         grid-template-columns: auto auto;
     } 
+    .box1{
+        grid-column: span 2;
+    }
+    #grid_second,.box9{
+        grid-template-columns: auto auto;
+    }
 }
 
 @media screen and (max-width:599px){
     #grid_first{
         grid-template-columns: auto;
     } 
->>>>>>> 982b3f507353272db0bfc92bd045b922b635708e
+    #grid_second{
+        grid-template-columns: auto;
+    }
+    .box1{
+        grid-column: 1;
+        grid-template-rows: initial;
+    }
+    .box9{
+        grid-template-columns: auto;
+    }
 }
