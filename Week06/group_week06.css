@@ -1,9 +1,20 @@
-
-
-@media screen and (max-width:599){
-    
+#grid_first{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
 }
 
-@media screen and (max-width:1199) and (min-width:600){
 
+
+
+@media screen and (max-width:1199px) and (min-width:600px){
+    #grid_first{
+        grid-template-columns: auto auto;
+    } 
+}
+
+@media screen and (max-width:599px){
+    #grid_first{
+        grid-template-columns: auto;
+    } 
 }
