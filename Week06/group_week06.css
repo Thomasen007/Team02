@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+}
+
 #flex_first,#flex_second{
     display: flex;
     justify-content: center;
@@ -7,6 +12,7 @@
 #flex_first{
     margin-left: 10%;
 }
+
 #flex_first ul{
     line-height: 35px;
 }
